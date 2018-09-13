@@ -22,29 +22,35 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 >> 1. pwd  
 >> 2. mkdir 'name_of_directory'
->>  3. rm -rf 'name_of_directory'
->>  4. touch 'name_of_file'
->>  5. rm 'name_of_file'
->>  6. mv 'old_name_of_file' 'new_name_of_file'
->>  7. ls -a 
->>  8. cp 'curent_path_to_file' 'path_to_file_where_you_want_it_to_be_copied'
->>  9. mkdir -p #only create directory if it doesnt exist
->>  10. rsync -av #copy a file but keep the original time stamp
+>> 3. rm -rf 'name_of_directory'
+>> 4. touch 'name_of_file'
+>> 5. rm 'name_of_file'
+>> 6. mv 'old_name_of_file' 'new_name_of_file'
+>> 7. ls -a 
+>> 8. cp 'curent_path_to_file' 'path_to_file_where_you_want_it_to_be_copied'
+>> 9. mkdir -p #only create directory if it doesnt exist
+>> 10. rsync -av #copy a file but keep the original time stamp
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
+`ls`
+>> List all the files and subdirectories of the working directory   
 `ls -a`  
+>> List all the files and subdirectories of the	working	directory, including the hidden files that begin with a dot 
 `ls -l`  
+>> List all the files and subdirectories of the working directory in a list -- one entry per line  
 `ls -lh`  
+>>use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte in order reduce the number of digits to three or less using base 2 for sizes. Also, one entry per line 
 `ls -lah`  
+>> one entry per line, include files begining with '.', and include the unit suffixes 
 `ls -t`  
+>> sort by time modified 
 `ls -Glp`  
+>> Enable colorized output, one entry per line, write a slash after the files that are directories 
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
