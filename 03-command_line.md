@@ -38,16 +38,22 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 What do the following commands do:  
 `ls`
 >> List all the files and subdirectories of the working directory   
+
 `ls -a`  
 >> List all the files and subdirectories of the	working	directory, including the hidden files that begin with a dot 
+
 `ls -l`  
 >> List all the files and subdirectories of the working directory in a list -- one entry per line  
+
 `ls -lh`  
 >>use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte in order reduce the number of digits to three or less using base 2 for sizes. Also, one entry per line 
+
 `ls -lah`  
 >> one entry per line, include files begining with '.', and include the unit suffixes 
+
 `ls -t`  
 >> sort by time modified 
+
 `ls -Glp`  
 >> Enable colorized output, one entry per line, write a slash after the files that are directories 
 
