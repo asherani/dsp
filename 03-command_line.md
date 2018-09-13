@@ -20,8 +20,7 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > 1. pwd \n
-    2. mkdir 'name_of_directory'
+> > 1. pwd  2. mkdir 'name_of_directory'
     3. rm -rf 'name_of_directory'
     4. touch 'name_of_file'
     5. rm 'name_of_file'
