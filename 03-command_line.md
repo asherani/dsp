@@ -21,15 +21,15 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 >> 1. pwd  
->>  2. mkdir 'name_of_directory'
-    3. rm -rf 'name_of_directory'
-    4. touch 'name_of_file'
-    5. rm 'name_of_file'
-    6. mv 'old_name_of_file' 'new_name_of_file'
-    7. ls -a 
-    8. cp 'curent_path_to_file' 'path_to_file_where_you_want_it_to_be_copied'
-    9. mkdir -p #only create directory if it doesnt exist
-    10. rsync -av #copy a file but keep the original time stamp
+>> 2. mkdir 'name_of_directory'
+>>  3. rm -rf 'name_of_directory'
+>>  4. touch 'name_of_file'
+>>  5. rm 'name_of_file'
+>>  6. mv 'old_name_of_file' 'new_name_of_file'
+>>  7. ls -a 
+>>  8. cp 'curent_path_to_file' 'path_to_file_where_you_want_it_to_be_copied'
+>>  9. mkdir -p #only create directory if it doesnt exist
+>>  10. rsync -av #copy a file but keep the original time stamp
 
 ---
 
