@@ -85,6 +85,7 @@ ls -u
 What does `xargs` do? Give an example of how to use it.
 
 >> Please see https://www.howtoforge.com/tutorial/linux-xargs-command/
+
 >> Acoording to that website: "reads data from standard input (stdin) and executes the command (supplied to it as an argument) one or more times based on the input read. Any blanks and spaces in the input are treated as delimiters, while blank lines are ignored"
 
  
