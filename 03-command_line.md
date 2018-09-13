@@ -64,15 +64,28 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -d 
+>> Directories are listed as plain files (not searched recursively).
 
+ls -ltr
+>> Directories listed one per line, in reverse order of time modified (most recent modified file is last_
+
+ls -L
+>> Follow all symbolic links to final target and list the file or directory the link references rather than the link itself.
+
+ls -p
+>> Write a slash (`/') after each filename if that file is a directory.
+
+ls -u 
+>> Force unedited printing of non-graphic characters; this is the default when output is not to a terminal.
 ---
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Please see https://www.howtoforge.com/tutorial/linux-xargs-command/
+>> Acoording to that website: "reads data from standard input (stdin) and executes the command (supplied to it as an argument) one or more times based on the input read. Any blanks and spaces in the input are treated as delimiters, while blank lines are ignored"
 
  
 
